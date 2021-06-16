@@ -14,7 +14,7 @@ import styles from "./ReservationSteps.module.scss";
 import { dateRangeCalculator, formatDate } from "../../utils/helpers";
 
 const ReservationSteps = ({ activeTab }) => {
-  const [createdReservation, setCreatedReservation] = useState(true);
+  const [createdReservation, setCreatedReservation] = useState(false);
   const [hotelsList, setHotelsList] = useState([]);
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(null);
