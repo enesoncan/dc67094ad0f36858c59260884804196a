@@ -1,0 +1,12 @@
+@import "../../globals";
+
+.prevNextSteps {
+  width: 100%;
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  padding: 15px 20px;
+  border-radius: 6px;
+  background-color: $gray;
+  justify-content: space-between;
+}

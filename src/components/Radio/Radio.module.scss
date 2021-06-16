@@ -1,0 +1,47 @@
+@import "../../globals";
+
+.modernRadioContainer {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+
+  .radioOuterCircle {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid $green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s linear;
+  }
+
+  .unselected {
+    border: 1px solid $gray;
+  }
+
+  .content {
+    color: $black;
+    width: 100%;
+    position: relative;
+
+    h5 {
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .informations {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        margin: 5px 0 0;
+      }
+    }
+  }
+}

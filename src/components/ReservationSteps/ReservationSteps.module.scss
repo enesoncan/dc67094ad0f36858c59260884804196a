@@ -1,0 +1,48 @@
+@import "../../globals";
+
+.container {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 50px;
+  position: relative;
+  flex-direction: column;
+
+  @media only screen and(max-width: 768px) {
+    width: 100%;
+  }
+
+  .successContainer {
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: relative;
+    color: $black;
+
+    span {
+      background: $green;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      margin: 0 auto;
+      border-radius: 50%;
+      padding-top: 5px;
+      padding-left: 3px;
+      box-sizing: border-box;
+      border: 10px solid lighten($color: $green, $amount: 45);
+    }
+
+    .checkmark {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: block;
+      stroke-width: 2;
+      stroke: $white;
+      stroke-miterlimit: 10;
+      stroke-dashoffset: 0;
+      margin: 0 auto;
+    }
+  }
+}

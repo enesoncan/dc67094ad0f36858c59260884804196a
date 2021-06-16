@@ -1,0 +1,39 @@
+@import "../../globals";
+
+.hotelDateSelectionContainer {
+  width: 100%;
+  padding: 20px;
+  margin-top: 30px;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid $gray;
+
+  .selectHotel {
+    margin-bottom: 30px;
+  }
+
+  .fieldsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+
+    > div {
+      margin-bottom: 10px;
+    }
+
+    h5 {
+      margin: 5px 0;
+    }
+
+    input {
+      padding: 10px;
+      border: 1px solid #f1f1f1;
+      border-radius: 6px;
+      color: #363636;
+      font-weight: 600;
+      min-width: 180px;
+    }
+  }
+}
